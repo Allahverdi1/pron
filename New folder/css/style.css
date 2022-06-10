@@ -1,0 +1,24 @@
+
+.container{
+    z-index: 10;
+}
+.row::before{
+    box-sizing: border-box;
+    position: relative;
+}
+.row ::after{
+    position: absolute;
+}
+.container .title{
+    text-align: center;
+}
+.container i{
+    margin-right: 10px;
+    margin-top: 100px;
+}
+#intro3{
+    margin-top: 100px;
+}
+
+
+
